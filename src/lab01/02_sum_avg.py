@@ -1,0 +1,5 @@
+a = float(input('a: '))
+b = float(input('b: '))
+sum = float(f'{(a+b):.2f}')
+avg = float(f'{(a+b)/2:.2f}')
+print(f'{sum=}; {avg=}')

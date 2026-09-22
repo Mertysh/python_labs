@@ -23,7 +23,3 @@ for i in range(i2+step, len(inp), step):
     st = st + s
     
 print(f'out: {st}')
-
-
-
-    

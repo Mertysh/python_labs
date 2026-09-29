@@ -1,4 +1,4 @@
-# lab21
+# lab02
 ## 01_arrays
 #### [Код](https://github.com/Mertysh/python_labs/blob/main/src/lab2/01_arrays.py)
 ![alt text](../../images/lab2/01_arrays_code.png)

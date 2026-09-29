@@ -1,4 +1,4 @@
-a = float(input('a: '))
+a = float(input('a: ').replace(',', '.'))
 b = float(input('b: '))
 sum = float(f'{(a+b):.2f}')
 avg = float(f'{(a+b)/2:.2f}')

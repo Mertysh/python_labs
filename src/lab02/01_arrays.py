@@ -1,13 +1,27 @@
 def min_max(nums: list[float | int]) -> tuple[float | int, float | int]:
+        if nums == []:
+            return 'ValueError'
         try:
-            return (min(nums), max(nums))
+            mi = 10**10
+            ma = 0
+            for x in nums:
+                  if x < mi: mi = x
+                  if x > ma: ma = x
+            return (mi, ma)
+    
         except Exception as ex:
             return 'ValueError'
                
 
 
 def unique_sorted(nums: list[float | int]) -> list[float | int]:
-        return sorted(set(nums))
+        nums = list(set(nums))
+        l = len(nums)
+        for i in range(l):
+            for j in range(0, l - 1):
+                if nums[j] > nums[j + 1]:
+                    nums[j], nums[j + 1] = nums[j + 1], nums[j]
+        return nums
         
 
 def flatten(mat: list[list | tuple]) -> list:

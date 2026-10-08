@@ -13,7 +13,7 @@
 #### row_sums(mat: list[list[float | int]]) -> list[float] - получает на вход матрицу (список список), возращает список сумм строк матрицы  
 #### col_sums(mat: list[list[float | int]]) -> list[float]  - получает на вход матрицу (список список), возращает список сумм столбцов матрицы  
 #### [Код](02_matrix.py)
-![alt text](../../images lab02/02_matrix_code.png)
+![alt text](../../images/lab02/02_matrix_code.png)
 #### Вывод
 ![alt text](../../images/lab02/02_matrix.png)
 

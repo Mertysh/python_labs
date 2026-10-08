@@ -20,6 +20,6 @@
 ## 03_tuples
 #### format_record(rec: tuple[str, str, float]) -> str - получает на вход кортеж, проверяет его на коректность, возвращает строку в нужном формате
 #### [Код](https://github.com/Mertysh/python_labs/blob/dac6472c4a4b549bb0852c130f598e09e3431def/src/lab02/03_tuples.py)
-![alt text](https://github.com/Mertysh/python_labs/blob/bd3881f4ee5164c0eca41d0d59d76b5b0e84e015/images/lab02/03_tuples_code.png)
+![alt text](https://github.com/Mertysh/python_labs/blob/0eebcb747ef38db7ed5a2c4b2077bda23a79ef37/images/lab02/03_tuples_code.png)
 #### Вывод
-![alt text](https://github.com/Mertysh/python_labs/blob/bd3881f4ee5164c0eca41d0d59d76b5b0e84e015/images/lab02/03_tuples.png)
+![alt text](https://github.com/Mertysh/python_labs/blob/0eebcb747ef38db7ed5a2c4b2077bda23a79ef37/images/lab02/03_tuples.png)

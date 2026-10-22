@@ -4,3 +4,6 @@
 ### [lab02](src/lab02/README.md)
 
 ### [lab03](src/lab03/README.md)
+
+### [lab04](src/lab04/README.md)
+

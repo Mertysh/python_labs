@@ -1,5 +1,5 @@
 # lab05
-## json_and_csv
+## json_csv
 ### Переводит json в csv json_to_csv()
 Преобразует JSON-файл в CSV.  
 Поддерживает список словарей [{...}, {...}], заполняет отсутствующие поля пустыми строками.  
@@ -46,7 +46,7 @@ csv_to_json(csv_path: str, json_path: str) -> None:
 Осутствующий файл → FileNotFoundError.  
 
 
-## csv_and_xlsx
+## csv_xlsx
 ### Переводить csv в xlsx csv_to_xlsx()
 Конвертирует CSV в XLSX.
 Первая строка CSV — заголовок.

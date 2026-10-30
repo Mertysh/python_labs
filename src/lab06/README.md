@@ -71,5 +71,5 @@
 
 ### Краевые случаи
 Осутствующий файл → FileNotFoundError.  
-top меньше или равен 0 → top должен быть больше 0.  
-Отсутствие подкоманды → argument command: invalid choice: "" (choose from 'json_to_csv', 'csv_to_json', 'csv_to_xlsx')
+top меньше или равен 0 → error: top должен быть больше 0.  
+Отсутствие подкоманды →  error: argument command: invalid choice: "" (choose from 'json_to_csv', 'csv_to_json', 'csv_to_xlsx')
